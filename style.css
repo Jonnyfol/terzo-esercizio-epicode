@@ -1,0 +1,96 @@
+.divimg{
+    background-image: url('immagine1.jpg');
+    height: 600px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+.save{
+    background-color: red;
+    position:absolute;
+    height:50px;
+    width:80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 30px;
+    left: 276px;
+    top:22px;
+}
+
+.arrow{
+    background-color: white;
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    border-radius: 30px;
+    top: 545px;
+    left: 20px;
+    padding-left: 5px;
+}
+
+.arrowdiv{
+   
+    width: 179px;
+    height: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.scritta{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.icons{
+    width: 20px ;
+    padding:10px;
+}
+
+.upload{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    top:545px;
+    left:270px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.1px;
+}
+#upload img{
+    width:20px;
+}
+
+.menù{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    top:545px;
+    left: 338px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.1px;
+}
